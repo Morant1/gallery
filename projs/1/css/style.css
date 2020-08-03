@@ -1,0 +1,126 @@
+* {
+    border-color: white;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+body {
+    padding-top: 7px;
+    background-image: url(../nums.jpg);
+    background-size: cover;
+    height: 100%; 
+
+}
+
+h1{
+font-family: 'Rowdies', cursive;
+color:white;
+text-shadow: 2px 2px black;
+margin-bottom: 5px;
+margin-top: 10px;
+
+
+}
+
+.level {
+    font-family: 'Rowdies',cursive;
+    background-color: grey;
+    width:80px;
+    margin-bottom: 15px;
+
+}
+.timerDisplay {
+    font-family: 'Rowdies',cursive;
+    font-size: 20px;
+    background-color: rgb(190, 190, 190);
+    padding-top:30px;
+    width: 110px;
+    height:50px;
+    position: absolute;
+    left:80%;
+    border:4px white solid;
+
+}
+
+.lives {
+display: none;
+position: absolute;
+top:10%;
+left:25%;
+}
+
+.emoji {
+    margin: 0 auto;
+}
+
+button {
+
+    width:32px;
+    height:32px;
+    margin: 1px 1px;
+    text-align: center;
+
+}
+
+.green {
+    background-color:rgb(20, 208, 233);
+
+}
+
+
+.black {
+    background-color:black;
+    color:white;
+
+}
+
+.safe_click{
+    display:none;
+    position:absolute;
+    margin-top:10px;
+    color:white;
+    font-weight: bold;
+    background-color:rgb(20, 208, 233);
+    width:100px;
+    height:50px;
+    top:7%;
+    left:30%;
+    border-radius: 20%;
+
+
+}
+
+.safe_click p {
+    padding-top: 4px;
+    color:black;
+    font-size: 10px;;
+}
+.light {
+    font-family: 'Rowdies',cursive;
+    font-size: 20px;
+    padding-top:30px;
+    width: 10px;
+    height:50px;
+    position: absolute;
+    top:15%;
+    left:83%;
+    display: none;
+
+}
+
+button:hover {
+    border: rgb(200, 233, 11) 2px solid;
+    cursor: pointer;
+
+}
+
+.clicked {
+
+    background-color: gray;
+    border-radius: 50%;
+    color:white;
+    border: white 2px solid;
+
+}
+

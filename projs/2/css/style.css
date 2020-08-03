@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    height:100vh;
+    overflow: hidden;
+}
+
+.modal img{
+    margin-bottom:15px;
+    width:150px;
+    height:180px;
+}
+
+
+.rate input {
+    text-align: center;
+}
+
+.modal {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left:500px;
+    display: flex;
+    text-align: center; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    height:85%;
+    background-color: rgba(119, 136, 153, 0.856);
+}
+
+.close-modal{
+    align-self: center;
+}
+
+thead {
+    background-color: rgb(159, 219, 230);
+}
+
+.book-container {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table {
+    text-align: center;
+    border-collapse: collapse;
+    width:800px;
+}
+.table td:nth-child(even) {
+    background-color: rgba(169, 169, 169, 0.281);
+    width:12px;
+}
+.table td:nth-child(odd) {
+    background-color: rgba(169, 169, 169, 0.096);
+    width:12px;
+}
+.add-Book {
+    margin-top:10px;
+    color: rgb(15, 141, 219);
+
+}
+.add-Book:hover{
+    text-decoration: underline;
+}
+.add-Book:active{
+    font-weight: 700;
+}
+
+
+.delete {
+    background-color: rgba(255, 0, 0, 0.356);
+}
+.update {
+    background-color: rgba(212, 152, 20, 0.356);
+}
+.read {
+    background-color: rgba(23, 20, 212, 0.356);
+}
